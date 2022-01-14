@@ -17,11 +17,13 @@ konfigürasyon yapmadan çalışacaktır.
 
 > Fatura Tablosu, oluşturulan tüm faturalar müşteri ile ilişkili olmak zorundadır. UI tarafından bize gönderilen 
 * Müşteri Id(CustomerId)i
-* işlem Tipi [Mağazandan mı yapılmış] (IsShoppingAction) 
+* işlem Tipi [Mağazandan mı yapılmış] (IsShoppingAction)  - bu flag false ise işlem mağaza dışında yapılmış yani %'li indirimlerden yararlanabilir
 * İşlem tutarı(Price) 
 
 değerleri alınır ve müşterinin duruma göre ne kadarlık indirim alacağı hesaplanır daha işlem tutarının 100'e göre modunun 5 ile çarpımı kadar ek indirim yapılarak sonuç fatura model olarak döner.
 
 
 > Çağlar KARABACAK
+
+
 
