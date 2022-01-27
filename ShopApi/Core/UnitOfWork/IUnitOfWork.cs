@@ -2,7 +2,7 @@
 using SqliteDatabase.Repositories;
 using System;
 
-namespace IotReworkDataAccess.UnitOfWork
+namespace ShopApi.UnitOfWork
 {
     public interface IUnitOfWork : IDisposable
     {
